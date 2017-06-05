@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: casainteligente
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: leonardo
+Implementation-Vendor-Id: br.com.leonardovivas
+Build-Jdk: 1.8.0_111
+Implementation-URL: casainteligente
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: SERPRO - Serviￃﾧo Federal de Processamento de D
+ ados
+

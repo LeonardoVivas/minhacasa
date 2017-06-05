@@ -19,6 +19,7 @@ public class BookmarkBC extends DelegateCrud<Bookmark, Long, BookmarkDAO> {
 	public void load() {
 		if (findAll().isEmpty()) {
 			insert(new Bookmark("Portal", "http://www.frameworkdemoiselle.gov.br"));
+			
 			insert(new Bookmark("Documentação", "http://demoiselle.sourceforge.net/docs/framework/reference"));
 			insert(new Bookmark("Fórum", "http://pt.stackoverflow.com/tags/demoiselle"));
 			insert(new Bookmark("Lista de usuários", "https://lists.sourceforge.net/lists/listinfo/demoiselle-users"));
